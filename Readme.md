@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Вячеслав](https://up.htmlacademy.ru/htmlcss/21/user/785695).
-* Наставник: `Евгений Баранков`(https://htmlacademy.ru/profile/id518169).
+* Наставник: [Евгений](https://htmlacademy.ru/profile/id518169).
 
 ---
 
