@@ -10,49 +10,81 @@
         <img src="img/logo.png" width="160" height="65" alt="Нердс">
       </a>
       <nav class="main-navigation">
-        <ul class="user-navigation">
+        <ul class="site-navigation">
           <li><a href="studio.html">Студия</a></li>
           <li><a href="clients.html">Клиенты</a></li>
           <li><a href="shop">Магазин</a></li>
-          <li><a href="contacts.html"></a>Контакты</li>
+          <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
-          <li class="bin">Корзина</li>
+          <li class="bin"><a href="bin.html">Корзина</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <h1>Магазин готовых шаблонов</h1>
-      <section class="filter">
+      <section class="filters">
         <h2 class="visially-hidden">Filter</h2>
-        <ul>
-          <li class="price">Стоимость
-            <span>От</span>
-            <span>До</span>
-          </li>
-          <li class="layout">
-            <span>Адаптивная</span>
-            <span>Фиксированная</span>
-            <span>Резиновая</span>
-          </li>
-          <li class="properties">
-            <span>Слайдер</span>
-            <span>Блок преимуществ</span>
-            <span>Новости</span>
-            <span>Галерея</span>
-            <span>Корзина</span>
-          </li>
-        </ul>
+        <form class="filter" method="get" action="http://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Стоимость:</legend>
+            <ul>
+              <li>От</li>
+              <li>До</li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Сетка</legend>
+            <ul>
+              <li class="filter_grid">
+                <input type="radio" name="grid" value="adaptive" id="grid_adaptive">
+                <label for="grid_adaptive">Адаптивная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="fix" id="grid_fix">
+                <label for="grid_fix">Фиксированная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="ribbon" id="grid_ribbon">
+                <label for="grid_ribbon">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности</legend>
+            <ul>
+              <li class="properties_option">
+                <input type="checkbox" name="slaider" id="properties_slaider" checked>
+                <label for="properties_slaider">Слайдер</label>
+              </li>
+              <li class="properties_option">
+                <input type="checkbox" name="block" id="properties_block">
+                <label for="properties_block">Блок Преимуществ</label>
+              </li>
+              <li class="properties_option">
+                <input type="checkbox" name="news" id="properties_news" checked>
+                <label for="properties_news">Новости</label>
+              </li>
+              <li class="properties_option">
+                <input type="checkbox" name="gallery" id="properties_gallery">
+                <label for="properties_gallery">Галерея</label>
+              </li>
+              <li class="properties_option">
+                <input type="checkbox" name="properties_bin" id="properties_bin">
+                <label for="properties_bin">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
       </section>
       <section>
-        <span>Сортировать:</span>
-        <ul class="sort">
+        <p>Сортировать:</p>
+        <ul>
           <li>По цене</li>
           <li>По типу</li>
-          <li>По названию</li>
+          <li>По названию</li>          
         </ul>
-      </section>
-      <section>
         <ul>
           <li>
             <img src="img/site-sedona.jpg" width="360" height="576" alt="Сайт1">
@@ -73,31 +105,45 @@
             <img src="img/site-kvast.jpg" width="360" height="576" alt="Сайт6"
           </li>
         </ul>
-      </section>
-      <section class="pages">
-        <a class="button-page">1</a>
-        <a class="button-page">2</a>
-        <a class="button-page">3</a>
-        <a class="button-page">Следующая</a>
+        <ul class="pages">
+          <li>
+            <a href="" class="button-page">1</a>
+          </li>
+          <li>
+            <a href="" class="button-page">2</a>
+          </li>
+          <li>
+            <a href="" class="button-page">3</a>
+          </li>
+          <li>
+            <a href="" class="button-page">Следующая</a>
+          </li>
+        <ul>
       </section>
     </main>
   </body>
   <footer>
     <section class="map">
-      <img src="img/map.jpg" width="1725" height="808" alt="Карта"">
+      <img src="img/map.jpg" width="1725" height="808" alt="Карта">
     </section>
     <section class="contacts">
       <h2 class="visially-hidden">Контакты</h2>
       <span>NERDS DESIGN STUDIO</span>
       <span>191186, г. Санкт-Петербург, ул. Б.Конюшечная, д. 19/8</span>
       <span>тел. +7(812)275-75-75</span>
-      <a class="button">Напишите нам</a>
+      <button type="button" class="button_contacts">Напишите нам</button>
     </section>
     <section>
-      <ul>
-        <li class="contact-button"><a class="VK">VK</a></li>
-        <li class="contact-button"><a class="Facebook">F</a></li>
-        <li class="contact-button"><a class="instagram">INSTAGRAM</a></li>
+      <ul class="social_button">
+        <li class="button_vk">
+          <a href="">VK</a>
+        </li>
+        <li class="button_facebook">
+          <a href="">F</a>
+        </li>
+        <li class="button_instagram">
+          <a href="">INSTAGRAM</a>
+        </li>
       </ul>
       <span>Давайте жить дружно, это выгодно!</span>
       <span>Скидка 10% для друзей из социальных сеткй</span>
