@@ -28,10 +28,19 @@
         <form class="filter" method="get" action="http://echo.htmlacademy.ru">
           <fieldset>
             <legend>Стоимость:</legend>
-            <ul>
-              <li>От</li>
-              <li>До</li>
-            </ul>
+            <div class="widget">
+              <div class="bar"></div>
+              <span class="bar_min" tabindex="0"></span>
+              <span class="bar_max" tabindex="0"></span>
+            </div>
+            <label class="price_from" for="min_price">
+              От
+              <input type="text" name="price_from" value="0" id="min_price">
+            </label>
+            <label class="price_to" for="max_price">
+              До
+              <input type="text" name="price_to" value="15 000" id="max_price">
+            </label>
           </fieldset>
           <fieldset>
             <legend>Сетка</legend>
@@ -81,9 +90,11 @@
       <section>
         <p>Сортировать:</p>
         <ul>
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По названию</li>          
+          <li><a href="">По цене</a></li>
+          <li><a href="">По типу</a></li>
+          <li><a href="">По названию</a></li>
+          <li><button type="button">Стрелка вниз</button></li>
+          <li><button type="button">Стрелка вверх</button></li>
         </ul>
         <ul>
           <li>
