@@ -50,14 +50,18 @@ a {
   opacity:0.3;
 }
 
-.main-slider,
+.main-slider {
+  background-color: #eeeeee;
+}
+
+.slider-list,
 .goods,
 .advantages,
 .social-button {
   list-style: none;
 }
 
-.main-slider h3 {
+.slider-list h3 {
   font-size: 55px;
   line-height: 55px;
   text-align: left;
@@ -189,7 +193,7 @@ list-style: none;
   color:#000000;
 }
 
-.catalog h1 {
+.main-navigation h1 {
   font-size: 55px;
   line-height: 55px;
   font-weight: bold;
