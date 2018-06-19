@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-logo:hover,
+.mail-logo:focus {
+  opacity: 0.8
+}
+
+.main-logo:active {
+  opacity: 0.3
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+  opacity:0.3;
+}
+
+.main-slider,
+.goods,
+.advantages,
+.social-button {
+  list-style: none;
+}
+
+.main-slider h3 {
+  font-size: 55px;
+  line-height: 55px;
+  text-align: left;
+}
+
+.goods h3{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.main-advantages h3 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.main-advantages h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button {
+  font: inherit;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #000000;
+  border: none;
+}
+
+.button-red {
+  background-color: #fb565a;
+  color: #ffffff;
+}
+
+.button-red:hover,
+.button-red:focus {
+  background-color: #e74246;
+}
+
+.button-red:active {
+  opacity: 0.3;
+  background-color: #e74246;
+}
+
+.button-green {
+  background-color: #00ca74;
+  color: #ffffff;
+}
+
+.button-green:active {
+  opacity: 0.3;
+  background-color: #00bc6c
+}
+
+.button-green:hover,
+.button-green:focus {
+  background-color: #00bc6c;
+}
+
+.button-yellow {
+  background-color: #efc849;
+  color: #ffffff;
+}
+
+.button-yellow:active {
+  opacity: 0.3;
+  background-color: #efc849
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+  background-color: #eab534;
+}
+
+.row-1 {
+  font-size: 45px;
+  line-height: 10,06px;
+  font-weight: 700;
+}
+
+.row-2 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.companies-logo {
+  list-style: none;
+  opacity: 0.2;
+}
+
+.companies-logo:hover,
+.companies-logo:focus {
+  opacity: 1.0;
+}
+
+.contacts h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.social-footer h3 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.social-footer p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.social-button a  {
+  color:#000000;
+}
+
+.catalog h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: bold;
+}
+
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.filter fieldset {
+  border: none;
+  list-style: none;
+}
+
+.filter ul{
+  list-style:none;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label{
+  color:
+}
+
+.price-from p,
+.price-to p {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.filter-list,
+.properties-list {
+font-size: 16px;
+line-height: 20px;
+list-style: none;
+}
+
+.button-gray {
+  background-color: #eeeeee;
+  color:#000000;
+}
+
+.sort p {
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sort-list {
+  list-style: none;
+}
+
+.sort-list li {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.sort-list a {
+  color: #000000;
+}
+
+.sort-list li:hover {
+  color:#d7d7d7;
+}
+
+.sites {
+  list-style: none;
+}
+
+.button-navigation {
+list-style: none;
+}
+
+.button-navigation a {
+  color:#000000;
+}
