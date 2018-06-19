@@ -107,6 +107,7 @@ a {
 }
 
 .button-red:active {
+  color:#e37376;
 }
 
 .button-green {
@@ -115,8 +116,7 @@ a {
 }
 
 .button-green:active {
-  opacity: 0.3;
-  background-color: #00bc6c
+  color: #1daf6c;
 }
 
 .button-green:hover,
@@ -129,14 +129,13 @@ a {
   color: #ffffff;
 }
 
-.button-yellow:active {
-  opacity: 0.3;
-  background-color: #efc849
-}
-
 .button-yellow:hover,
 .button-yellow:focus {
   background-color: #eab534;
+}
+
+.button-yellow:active {
+  background-color: #edc265;
 }
 
 .button-gray {
@@ -204,7 +203,7 @@ list-style: none;
   line-height: 22px;
 }
 
-.social-button a  {
+.social-button {
   color:#000000;
 }
 
