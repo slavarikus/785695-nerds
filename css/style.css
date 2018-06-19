@@ -154,9 +154,13 @@ list-style: none;
   opacity: 0.2;
 }
 
-.companies-logo li a:hover,
-.companies-logo li a:focus {
-  opacity: 1.0;
+.companies-logo li a:hover {
+  opacity: 1.0
+}
+
+.companies-logo li a:focus,
+.companies-logo li a:active {
+  opacity: 0.1;
 }
 
 .contacts h3 {
