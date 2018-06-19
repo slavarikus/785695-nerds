@@ -13,7 +13,7 @@ a {
 }
 
 .main-logo:hover,
-.mail-logo:focus {
+.main-logo:focus {
   opacity: 0.8
 }
 
@@ -25,6 +25,7 @@ a {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
+  background-color: #eeeeee;
 }
 
 .site-navigation,
@@ -145,12 +146,16 @@ a {
 }
 
 .companies-logo {
+list-style: none;
+}
+
+.companies-logo li a{
   list-style: none;
   opacity: 0.2;
 }
 
-.companies-logo:hover,
-.companies-logo:focus {
+.companies-logo li a:hover,
+.companies-logo li a:focus {
   opacity: 1.0;
 }
 
