@@ -143,6 +143,7 @@ a {
 .button-gray {
   background-color: #eeeeee;
   color:#000000;
+  cursor:pointer;
 }
 
 .button-gray:hover {
@@ -152,6 +153,10 @@ a {
 .button-gray:active {
   background-color:#d5d5d5;
   color:#959595;
+}
+
+.button-navigation {
+list-style: none;
 }
 
 .row-1 {
@@ -289,15 +294,6 @@ list-style: none;
 
 .sites {
   list-style: none;
-  opacity:0.2;
-}
-
-.sites:hover {
-  opacity:1.0;
-}
-
-.button-navigation {
-list-style: none;
 }
 
 .write-header {
