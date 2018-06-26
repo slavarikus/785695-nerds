@@ -11,11 +11,11 @@
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
-          <a class="main-logo" href="#"><img src="img/logo.png" width="160" height="65" alt="Нердс"></a>
+          <a class="main-logo" href="index.html"><img src="img/logo.png" width="160" height="65" alt="Нердс"></a>
           <ul class="site-navigation">
             <li><a href="#">Студия</a></li>
             <li><a href="#">Клиенты</a></li>
-            <li><a href="#">Магазин</a></li>
+            <li class="site-navigation-current"><a href="#">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
           <ul class="user-navigation">
@@ -26,9 +26,9 @@
       </div>
     </header>
     <main class="container catalog">
-      <section class="filters">
+      <section class="filter">
         <h2 class="visually-hidden">Filter</h2>
-        <form class="filter" method="get" action="http://echo.htmlacademy.ru">
+        <form class="filter-form" method="get" action="http://echo.htmlacademy.ru">
           <fieldset class="filter-widget">
             <legend>Стоимость:</legend>
             <div class="widget">
@@ -46,19 +46,19 @@
             </label>
           </fieldset>
           <fieldset class="filter-grid">
-            <legend>Сетка</legend>
-              <ul>
+            <legend class="filter-grid-legend">Сетка:</legend>
+              <ul class="filter-grid-block">
                 <li>
-                  <input type="radio" class="filter-input" name="grid" value="adaptive" id="grid-adaptive">
-                  <label for="grid-adaptive">Адаптивная</label>
+                  <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="adaptive" id="grid-adaptive">
+                  <label class="filter-grid-label" for="grid-adaptive">Адаптивная</label>
                 </li>
                 <li>
-                  <input type="radio" class="filter-input" name="grid" value="fix" id="grid-fix">
-                  <label for="grid-fix">Фиксированная</label>
+                  <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="fix" id="grid-fix">
+                  <label class="filter-grid-label" for="grid-fix">Фиксированная</label>
                 </li>
                 <li>
-                  <input type="radio" class="filter-input" name="grid" value="ribbon" id="grid-ribbon">
-                  <label for="grid-ribbon">Резиновая</label>
+                  <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="ribbon" id="grid-ribbon">
+                  <label class="filter-grid-label" for="grid-ribbon">Резиновая</label>
                 </li>
               </ul>
             </fieldset>
