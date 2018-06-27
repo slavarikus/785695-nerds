@@ -47,46 +47,42 @@
           </fieldset>
           <fieldset class="filter-grid">
             <legend class="filter-grid-legend">Сетка:</legend>
-              <ul class="filter-grid-block">
-                <li>
-                  <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="adaptive" id="grid-adaptive">
-                  <label class="filter-grid-label" for="grid-adaptive">Адаптивная</label>
-                </li>
-                <li>
-                  <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="fix" id="grid-fix">
-                  <label class="filter-grid-label" for="grid-fix">Фиксированная</label>
-                </li>
-                <li>
-                  <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="ribbon" id="grid-ribbon">
-                  <label class="filter-grid-label" for="grid-ribbon">Резиновая</label>
-                </li>
-              </ul>
-            </fieldset>
-          </div>
-          <fieldset>
-            <legend>Особенности</legend>
-            <ul class="properties-list">
-              <li>
-                <input type="checkbox" name="slaider" id="properties-slaider" checked>
-                <label for="properties-slaider">Слайдер</label>
-              </li>
-              <li>
-                <input type="checkbox" name="block" id="properties-block">
-                <label for="properties-block">Блок Преимуществ</label>
-              </li>
-              <li>
-                <input type="checkbox" name="news" id="properties-news" checked>
-                <label for="properties-news">Новости</label>
-              </li>
-              <li>
-                <input type="checkbox" name="gallery" id="properties-gallery">
-                <label for="properties-gallery">Галерея</label>
-              </li>
-              <li>
-                <input type="checkbox" name="properties-bin" id="properties-bin">
-                <label for="properties-bin">Корзина</label>
-              </li>
-            </ul>
+            <div class="filter-grid-item">
+              <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="adaptive" id="grid-adaptive" checked>
+              <label class="filter-grid-label" for="grid-adaptive">Адаптивная</label>
+            </div>
+            <div class="filter-grid-item">
+              <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="fix" id="grid-fix">
+              <label class="filter-grid-label" for="grid-fix">Фиксированная</label>
+            </div>
+            <div class="filter-grid-item">
+              <input type="radio" class="visually-hidden filter-grid-input" name="grid" value="ribbon" id="grid-ribbon">
+              <label class="filter-grid-label" for="grid-ribbon">Резиновая</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="filter-features">
+            <legend class="filter-features-legend">Особенности:</legend>
+            <div class="filter-features-item">
+              <input class="visually-hidden filter-features-input" type="checkbox" name="slaider" id="features-slaider" checked>
+              <label class="filter-features-label" for="features-slaider">Слайдер</label>
+            </div>
+            <div class="filter-features-item">
+              <input class="visually-hidden filter-features-input" type="checkbox" name="block" id="features-block">
+              <label class="filter-features-label" for="features-block">Блок Преимуществ</label>
+            </div>
+            <div class="filter-features-item">
+              <input class="visually-hidden filter-features-input" type="checkbox" name="news" id="features-news" checked>
+              <label class="filter-features-label" for="features-news">Новости</label>
+            </div>
+            <div class="filter-features-item">
+              <input class="visually-hidden filter-features-input" type="checkbox" name="gallery" id="features-gallery">
+              <label class="filter-features-label" for="features-gallery">Галерея</label>
+            </div>
+            <div class="filter-features-item">
+              <input class="visually-hidden filter-features-input" type="checkbox" name="featues-bin" id="features-bin">
+              <label class="filter-features-label" for="features-bin">Корзина</label>
+            </div>
           </fieldset>
           <button class="button button-gray">Показать</button>
         </form>
@@ -95,35 +91,95 @@
         <div class="sort-header">
           <p>Сортировать:</p>
           <ul class="sort-list">
-            <li><a href="#">По цене</a></li>
-            <li><a href="#">По типу</a></li>
-            <li><a href="#">По названию</a></li>
-            <li>
-              <div class="button-container">
-                <button></button>
-                <button></button>
-              </div>
+            <li class="sort-item">
+              <a class="sort-link sort-link-active" href="#">По цене</a>
+            </li>
+            <li class="sort-item">
+              <a class="sort-link" href="#">По типу</a>
+            </li>
+            <li class="sort-item">
+              <a class="sort-link" href="#">По названию</a>
+            </li>
+            <li class="sort-item">
+              <a class="sort-link sort-link-active sort-buttom-down" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+									<path fill="#231F20" d="M5.5 10L0 0h11"/>
+								</svg>
+              </a>
+            </li>
+            <li class="sort-item">
+              <a class="sort-link sort-buttom-up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+									<path fill="#231F20" d="M5.5 0L0 10h11z"/>
+								</svg>
+              </a>
             </li>
           </ul>
         </div>
-        <div class="sites">
-          <ul class="sites-list">
-            <li><a href="#"><img src="img/site-sedona.jpg" width="360" height="576" alt="Сайт1"></a></li>
-            <li><a href="#"><img src="img/site-pink.jpg" width="360" height="576" alt="Сайт2"></a></li>
-            <li><a href="#"><img src="img/site-barbershop.jpg" width="360" height="576" alt="Сайт3"></a></li>
-            <li><a href-"#"><img src="img/site-mishka.jpg" width="360" height="576" alt="Сайт4"></a></li>
-            <li><a href="#"><img src="img/site-aplus.jpg" width="360" height="576" alt="Сайт5"></a></li>
-            <li><a href="#"><img src="img/site-kvast.jpg" width="360" height="576" alt="Сайт6"></a></li>
-          </ul>
-        </div>
-        <div class="button-navigation">
-          <ul class="button-navigation-list">
-            <li><button class="button-gray">1</button></li>
-            <li><button class="button-gray">2</button></li>
-            <li><button class="button-gray">3</button></li>
-            <li><button class="button-gray">Следующая</button></li>
-          <ul>
-        </div>
+        <ul class="sites-list">
+          <li class="sites-item">
+            <img class="sites-img" src="img/site-sedona.jpg" width="360" height="576" alt="Sedona">
+            <div class="sites-block">
+              <a class="sites-block-head" href="#">Sedona</a>
+              <p class="sites-words">Информационный сайт для туристов </p>
+              <a class="button button-sites" href-"#">9 900 руб.</a>
+            </div>
+          </li>
+          <li class="sites-item">
+            <img class="sites-img" src="img/site-pink.jpg" width="360" height="576" alt="Pink"></a>
+            <div class="sites-block">
+              <a class="sites-block-head" href="#">
+              <p class="sites-words"></p>
+              <a class="button button-sites">9 900 руб.</a>
+            </div>
+          </li>
+          <li class="sites-item">
+            <img class="sites-img" src="img/site-barbershop.jpg" width="360" height="576" alt="Barbershop"></a>
+            <div class="sites-block">
+              <a  class="sites-block-head" href="#">
+              <p class="sites-words"></p>
+              <a class="button button-sites">9 900 руб.</a>
+            </div>
+          </li>
+          <li class="sites-item">
+            <img class="sites-img" src="img/site-mishka.jpg" width="360" height="576" alt="Mishka"></a>
+            <div class="sites-block">
+              <a class="sites-block-head" href-"#">
+              <p class="sites-words"></p>
+              <<a class="button button-sites">9 900 руб.</a>
+            </div>
+          </li>
+          <li class="sites-item">
+            <img class="sites-img" src="img/site-aplus.jpg" width="360" height="576" alt="Aplus"></a>
+            <div class="sites-block">
+              <a class="sites-block-head" href="#">
+              <p class="sites-words"></p>
+              <a class="button button-sites">9 900 руб.</a>
+            </div>
+          </li>
+          <li class="sites-item">
+            <img class="sites-img" src="img/site-kvast.jpg" width="360" height="576" alt="Kvast"></a>
+            <div class="sites-block">
+              <a class="sites-block-head" href="#">
+              <p class="sites-words"></p>
+              <a class="button">9 900 руб.</a>
+            </div>
+          </li>
+        </ul>
+        <ul class="button-navigation-list">
+          <li class="button-navigation-item">
+            <a class="button-navigation-link">1</a>
+          </li>
+          <li class="button-navigation-item">
+            <a class="button-navigation-link">2</a>
+          </li>
+          <li class="button-navigation-item">
+            <a class="button-navigation-link">3</a>
+          </li>
+          <li class="button-navigation-item">
+            <a class="button-navigation-link">Следующая</a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="main-footer">
