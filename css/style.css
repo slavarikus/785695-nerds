@@ -1275,6 +1275,10 @@ color: rgba(0, 0, 0, 0.3);
   background-color:#ffffff;
 }
 
+.modal-open {
+  display:block;
+}
+
 .modal-header {
   display:inline-block;
   margin:0;
