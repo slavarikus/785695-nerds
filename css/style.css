@@ -1274,16 +1274,6 @@ color: rgba(0, 0, 0, 0.3);
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
   background-color:#ffffff;
 }
-.modal-open {
-display: block;
--webkit-animation: bounce 0.6s;
-animation: bounce 0.6s;
-}
-
-.modal-eror {
-	-webkit-animation: shake 0.6s;
-	animation: shake 0.6s;
-}
 
 .modal-header {
   display:inline-block;
