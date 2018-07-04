@@ -168,27 +168,31 @@
         </div>
       </div>
     </footer>
-    <section class="modal-window">
-      <h2 class="visually-hidden">Комментарий</h2>
-      <button class="button-close">Закрыть</button>
-      <form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
-        <p class="modal-header">Напишите нам</p>
-        <div class="modal-item-block">
-          <div class="modal-item-name">
-            <label for="modal-name">Ваше имя:</label>
-            <input id="modal-name" type="text" name="name" value="" placeholder="Имя Фамилия">
-          </div>
-          <div class="modal-item-email">
-            <label for="modal-email">Ваш e-mail:</label>
-            <input id="modal-email" type="email" name="email" placeholder="email.example.com">
-          </div>
+    <section class="modal-overlay">
+      <div class="modal">
+        <div class="modal-window">
+          <h2 class="visually-hidden">Комментарий</h2>
+          <button class="button-close">Закрыть</button>
+          <form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="modal-header">Напишите нам</p>
+            <div class="modal-item-block">
+              <div class="modal-item-name">
+                <label for="modal-name">Ваше имя:</label>
+                <input id="modal-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+              </div>
+              <div class="modal-item-email">
+                <label for="modal-email">Ваш e-mail:</label>
+                <input id="modal-email" type="email" name="email" placeholder="email.example.com">
+              </div>
+            </div>
+            <div class="modal-item-feedback">
+              <label for="feedback">Текст письма:</label>
+              <textarea name="feedback" id="feedback" placeholder="В свободной форме"></textarea>
+            </div>
+            <button class="button button-modal" type="submit">Отправить</button>
+          </form>
         </div>
-        <div class="modal-item-feedback">
-          <label for="feedback">Текст письма:</label>
-          <textarea name="feedback" id="feedback" placeholder="В свободной форме"></textarea>
-        </div>
-        <button class="button button-modal" type="submit">Отправить</button>
-      </form>
+      </div>
     </section>
     <script src="js/script.js"></script>
   </body>

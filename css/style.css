@@ -1269,13 +1269,20 @@ color: rgba(0, 0, 0, 0.3);
   color:#959595;
 }
 
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1000;
+}
 
 .modal-window {
   display:none;
   position:fixed;
-  top:120px;
+  top:1220px;
   left:50%;
-  z-index:2000;
+  z-index:20000;
 
   width:760px;
   padding:73px 100px 84px 100px;
