@@ -1,7 +1,13 @@
+
+var body = document.querySelector(".body");
 var popup = document.querySelector(".modal-window");
 var link = document.querySelector(".footer-button");
 var close = popup.querySelector(".button-close");
 
+ink.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  body.classList.add("modal-open");
+});
 
 link.addEventListener("click", function (evt) {
   evt.preventDefault();
@@ -11,4 +17,9 @@ link.addEventListener("click", function (evt) {
 close.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.remove("modal-open");
+});
+
+close.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    body.classList.remove("modal-open");
 });
