@@ -1169,7 +1169,7 @@ input[type="radio"].visually-hidden {
 
 .sites-block-head {
   display:inline-block;
-  margin:35px 80px 28px 80px;
+  margin:35px auto 28px;
   padding: 0;
 	vertical-align: middle;
 	font-size: 18px;
@@ -1188,6 +1188,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button-sites {
+  max-width:120px;
   margin-left:40px;
   margin-right:40px;
   margin-bottom:42px;
@@ -1269,20 +1270,12 @@ color: rgba(0, 0, 0, 0.3);
   color:#959595;
 }
 
-.modal {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index:1000;
-}
-
 .modal-window {
   display:none;
   position:fixed;
-  top:1220px;
+  top:10px;
   left:50%;
-  z-index:20000;
+  z-index:2000;
 
   width:760px;
   padding:73px 100px 84px 100px;
