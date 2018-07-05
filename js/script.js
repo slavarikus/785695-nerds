@@ -4,7 +4,7 @@ var popup = document.querySelector(".modal-window");
 var link = document.querySelector(".footer-button");
 var close = popup.querySelector(".button-close");
 
-ink.addEventListener("click", function (evt) {
+link.addEventListener("click", function (evt) {
   evt.preventDefault();
   body.classList.add("modal-open");
 });
