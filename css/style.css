@@ -1284,6 +1284,9 @@ color: rgba(0, 0, 0, 0.3);
 
 .modal-open .modal{
   display:block;
+}
+
+.modal-open {
   overflow:hidden;
 }
 
@@ -1399,7 +1402,7 @@ color: rgba(0, 0, 0, 0.3);
   padding-left: 80px;
 	padding-right: 86px;
   padding-bottom:10px;
-  padding-top:15px;  
+  padding-top:15px;
 	line-height: 18px;
 
   background-color:#fb565a;
