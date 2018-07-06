@@ -439,7 +439,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button-yellow:active {
-  background-color: #edc265;
+  color: #edc265;
 }
 
 .advantages-left {
