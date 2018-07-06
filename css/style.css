@@ -218,15 +218,10 @@ input[type="radio"].visually-hidden {
 }
 
 
-.slider-item {
-  display:none;
-}
-
 .slider-item h3 {
-  max-width:380px;
+  max-width:550px;
   margin: 0;
   margin-bottom:27px;
-  padding-top:77px;
 
   font-size: 55px;
   line-height: 55px;
@@ -235,13 +230,13 @@ input[type="radio"].visually-hidden {
 }
 
  .slider-item p {
-   max-width:380px;
+   max-width:550px;
    margin:0;
    margin-bottom:39px;
 }
 
 .slider-item:nth-child(1) {
-  display:block;
+
 
   background-image: url(../img/slide1.png);
   background-repeat: no-repeat;
@@ -260,16 +255,21 @@ input[type="radio"].visually-hidden {
   background-position: 93% 18px;
 }
 
-.slider-input-1:checked~.slider-list .slider-item:nth-child(1) {
-  display:block;
+.slider-item {
+  display:none;
+  padding: 78px 0 80px 0;
 }
 
-.slider-input-2:checked~.slider-list .slider-item:nth-child(2) {
-  display:block;
+.slider-input-1:checked ~ .slider-list .slider-item:nth-child(1) {
+  display: block;
 }
 
-.slider-input-3:checked~.slider-list .slider-item:nth-child(3) {
-  display:block;
+.slider-input-2:checked ~ .slider-list .slider-item:nth-child(2) {
+  display: block;
+}
+
+.slider-input-3:checked ~ .slider-list .slider-item:nth-child(3) {
+  display: block;
 }
 
 .slider-input-1:checked~.slider-controls .slider-control-label-1::before,
@@ -398,7 +398,6 @@ input[type="radio"].visually-hidden {
 .button-slider {
   display:inline-block;
   padding:16px 40px 16px 40px;
-  margin-bottom:80px;
 }
 
 .button-red {
