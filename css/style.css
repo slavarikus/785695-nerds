@@ -416,8 +416,10 @@ input[type="radio"].visually-hidden {
 }
 
 .button-red:active {
-  color:#e37376;
-  border-top:3px solid #c13135;
+  color: rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	background-color: #d7373b;
 }
 
 .button-green {
@@ -426,8 +428,10 @@ input[type="radio"].visually-hidden {
 }
 
 .button-green:active {
-  color: #1daf6c;
-  border-top:3px solid #009958;
+  color: rgba(255, 255, 255, 0.3);
+	-webkit-box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	background-color: #00aa62;
 }
 
 .button-green:hover,
@@ -446,8 +450,11 @@ input[type="radio"].visually-hidden {
 }
 
 .button-yellow:active {
-  color: #edc265;
-  border-top:3px solid #ce961f;
+  color: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  background-color: #e5a722;
+
 }
 
 .advantages-left {
@@ -596,7 +603,7 @@ input[type="radio"].visually-hidden {
   position:relative;
   width:100%;
   height:416px;
-  padding:0;
+  padding:0 20px;
   margin:0;
   margin-bottom:79px;
 }
@@ -683,7 +690,10 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-button:active {
-    color:#e37376;
+  color: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  background-color: #d7373b;
 }
 
 .social-footer {
@@ -1294,8 +1304,7 @@ input[type="radio"].visually-hidden {
   background-color:#dfdfdf;
 }
 .button-nav-link:active {
-  border-top: 3px solid #bfbfbf;
-color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .button-nav-link-active,
@@ -1320,9 +1329,10 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .button-gray:active {
-  background-color:#d5d5d5;
-  color:#959595;
-  border-top:3px solid #bfbfbf;
+  -webkit-box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+  color: rgba(0, 0, 0, 0.3);
+	background-color: #d5d5d5;
 }
 
 .modal {
@@ -1333,9 +1343,8 @@ color: rgba(0, 0, 0, 0.3);
   left:0px;
   right:0px;
   z-index:999;
-
-  background:rgba (51, 51, 51, 0.2);
-  overflow:none;
+  background: rgba(51, 51, 51, 0.2);
+  overflow:hidden;
 }
 
 .modal-open .modal{
@@ -1343,7 +1352,8 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .modal-open {
-  overflow-y: visible;
+  overflow:hidden;
+  padding-right:17px;
 }
 
 .modal-window {
