@@ -12,9 +12,5 @@ link.addEventListener("click", function (evt) {
 close.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.remove("modal-open");
-});
-
-close.addEventListener("click", function (evt) {
-    evt.preventDefault();
     body.classList.remove("modal-open");
 });
