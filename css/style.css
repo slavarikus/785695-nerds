@@ -184,7 +184,7 @@ input[type="radio"].visually-hidden {
   width:160px;
   height:18px;
   text-align: center;
-  font-size: 0;
+  font-size:0px;
   transform: translateX(-50%);
 }
 
@@ -830,7 +830,7 @@ input[type="radio"].visually-hidden {
   left:16px;
   width:22px;
   height:22px;
-  font-size: 0;
+  font-size:0px;
   background-color:#ffffff;
   cursor:pointer;
   border-radius:50%;
@@ -851,7 +851,7 @@ input[type="radio"].visually-hidden {
   left:154px;
   width:22px;
   height:22px;
-  font-size: 0;
+  font-size:0px;
   background-color:#ffffff;
   cursor:pointer;
   border-radius:50%;
@@ -873,7 +873,6 @@ input[type="radio"].visually-hidden {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-
   width:260px;
 }
 
@@ -885,7 +884,7 @@ input[type="radio"].visually-hidden {
   vertical-align: middle;
 }
 
-.widget-numbers input{
+.widget-numbers input {
   box-sizing:border-box;
   width:80px;
   padding:9px 10px;
@@ -896,8 +895,8 @@ input[type="radio"].visually-hidden {
   border:0;
   text-align: center;
   border-radius: 3px;
-
 }
+
 .widget-numbers-price-from,
 .widget-numbers-price-to  {
   display:inline-block;
@@ -1485,7 +1484,7 @@ color: rgba(0, 0, 0, 0.3);
   top:80px;
   right:90px;
   background-color:transparent;
-  font-size: 0;
+  font-size:0px;
   border:0;
   cursor:pointer;
 
