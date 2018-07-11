@@ -25,7 +25,6 @@ img {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -40,7 +39,6 @@ input[type="radio"].visually-hidden {
 .button {
   display:inline-block;
   width:160px;
-
   padding:17px 40px;
   font-size:16px;
   line-height: 18px;
@@ -605,14 +603,19 @@ input[type="radio"].visually-hidden {
   height:416px;
   padding:0;
   margin:0;
-  margin-bottom:79px;
+  margin-bottom:81px;
   overflow:hidden;
 }
 
 .main-footer .container {
-  width:1440px;
+  position:relative;
+}
+
+.main-footer .container-fluid {
+  max-width: 1440px;
   margin: 0 auto;
-  padding:0;
+  padding: 0;
+  width: 100%;
 }
 
 .map-inner {
@@ -631,23 +634,20 @@ input[type="radio"].visually-hidden {
   position:absolute;
   top:-135px;
   left:0;
-  width: 100%;
+  width: 1440px;
   height:auto;
   z-index:1;
+  max-width: none;
 }
 
 .footer-contacts {
   position:absolute;
   z-index:3;
-
   width:225px;
   max-height:210px;
   margin-top:49px;
-  margin-left:20px;
-  padding: 63px 50px 47px 50px;
-
+  padding: 63px 50px 47px;
   background-color:#ffffff;
-  left:32px;
 }
 
 .footer-contacts-inner {
@@ -709,10 +709,7 @@ input[type="radio"].visually-hidden {
   display: -ms-flexbox;
   display:flex;
   justify-content: flex-start;
-  margin-left:50px;
-
 }
-
 
 .social-footer h3 {
   margin:0;
